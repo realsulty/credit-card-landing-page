@@ -4,7 +4,7 @@ body {
   padding: 0;
   background-image: url("images/bg-main-mobile.png");
   background-repeat: no-repeat, repeat;
-  background-size: 100%;
+  background-size: 110%;
   font-family: "Poppins", sans-serif;
 }
 
@@ -43,12 +43,12 @@ body {
 
 .bank-card::after {
   content: "";
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   border-radius: 80%;
   border: solid white;
   position: absolute;
-  top: -82px;
+  top: -81px;
   left: 110px;
   z-index: 2;
 }
@@ -66,16 +66,65 @@ body {
 }
 
 #exp-front {
-  position: absolute;
-  right: 59px;
+  position: relative;
+  left: 295px;
   top: 40px;
   font-size: 10px;
 }
 
 .container {
   background-color: white;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
   color: purple;
   margin-top: 30px;
-  padding: 8rem 1rem;
+  padding: 8rem 0.6rem;
+}
+
+button {
+  width: 15rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 0.5rem;
+  border: none;
+  color: rgba(224, 218, 218, 0.811);
+  background-color: rgb(58, 26, 83);
+  padding: 1rem;
+  text-align: center;
+  margin: 1rem 4rem;
+}
+button:hover {
+  cursor: pointer;
+}
+
+input {
+  width: 15rem;
+  padding: 0.4rem;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+input:hover {
+  border-color: #b3b3b3;
+}
+input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  outline: none;
+}
+
+#securities input {
+  margin: 8px 5px;
+}
+#securities #Exp-mm {
+  width: 40px;
+}
+#securities #Exp-yy {
+  width: 40px;
+}
+#securities #cv {
+  width: 120px;
 }/*# sourceMappingURL=main.css.map */
