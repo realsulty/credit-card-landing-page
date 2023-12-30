@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("images/bg-main-mobile.png");
+  background-repeat: no-repeat, repeat;
+  background-size: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  margin-bottom: 15rem;
+}
+
+.bank-card {
+  position: relative;
+}
+
+#card-front {
+  width: 320px;
+  margin: 1rem 3rem 1rem;
+  position: absolute;
+  top: -120px;
+  left: -20px;
+}
+
+#card-text {
+  font-size: 15px;
+  color: white;
+}
+
+#number {
+  position: absolute;
+  left: 60px;
+  letter-spacing: 5px;
+}
+
+#name {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+
+#exp-front {
+  position: absolute;
+  right: 59px;
+  top: 40px;
+  font-size: 10px;
+}
+
+.container {
+  background-color: white;
+  height: 100vh;
+  color: purple;
+  margin-top: 30px;
+  padding: 8rem 1rem;
+}/*# sourceMappingURL=main.css.map */
