@@ -18,6 +18,15 @@ margin-bottom: 15rem;
 position: relative;
     
     }
+#card-back{
+width: 320px;
+margin: 1rem 3rem 1rem;
+position: absolute;  
+bottom: 39px;
+left: 20px;
+
+    
+    }
 #card-front{
 width: 320px;
 margin: 1rem 3rem 1rem;
@@ -81,13 +90,13 @@ font-size: 10px;
     }
 
 .container{
-background-color: white;
+// background-color: white;
 // height: 100vh;
 display: flex;
 flex-direction: column;
 color:purple;
-margin-top: 30px;
-padding: 8rem 0.6rem;
+margin: 10px 15px;
+padding: 7rem 0.6rem;
 }
 
 
@@ -96,7 +105,7 @@ width: 15rem;
 font-family: 'Poppins', sans-serif;
 border-radius: 0.5rem;
 border: none;
-color: rgba(224, 218, 218, 0.811);
+color: rgb(224, 218, 218);
 background-color: rgb(58, 26, 83);
 padding: 1rem;
 text-align: center;
@@ -109,14 +118,15 @@ margin: 1rem 4rem;
 
 
 input{
-width: 15rem;
+width: 20rem;
 padding: 0.4rem;
 margin: 10px 0;
+font-family: 'Poppins', sans-serif;
  border: 1px solid #ccc;
   border-radius: 4px;
   padding: 8px 12px;
   font-size: 16px;
-  background-color: #f9f9f9;
+  background-color: #f9f9f94a;
   transition: border-color 0.3s, box-shadow 0.3s;
 
   &:hover {
@@ -130,6 +140,14 @@ margin: 10px 0;
   }
     }
 
+    input[type="text"] {
+  opacity: 0.6; // Adjusts the opacity; 1 is fully opaque, and 0 is fully transparent
+  color: #000; // Change this to your desired text color
+}
+    input[type="number"] {
+  opacity: 0.6; // Adjusts the opacity; 1 is fully opaque, and 0 is fully transparent
+  color: #000; // Change this to your desired text color
+}
 #securities{
 input{
  margin: 8px 5px;   

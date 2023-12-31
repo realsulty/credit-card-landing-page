@@ -21,6 +21,7 @@
   </header> -->
   <div id="header"></div>
   <div class="bank-card">
+    <img id="card-back" src="images/bg-card-back.png" alt="">
     <img id="card-front" src="images/bg-card-front.png" alt="">
     <h3 id="card-text">
 
@@ -61,25 +62,23 @@
 <form action="" id="securities">
 
   Exp. Date (MM/YY) &nbsp;        &nbsp;  CV <br>
-<input type="number" id="Exp-mm" placeholder="MM">
-<input type="number" id="Exp-yy" placeholder="YY">
+<input type="number" min="1" max="2" id="Exp-mm" placeholder="MM">
+<input type="number" max="2" id="Exp-yy" placeholder="YY">
   
 
-  <input type="number" placeholder="e.g 123" id="cv">
+  <input type="number" max="3" placeholder="e.g 123" id="cv">
 </form>
   
   <button id="btn1">Confirm</button>
   <!-- Completed state start -->
 
-  Thank you!
-  We've added your card details
-  Continue
+
   
 </div>
-<div class="attribution">
+<!-- <div class="attribution">
   Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
   Coded by <a href="#">Sultan Bin Mahfodh</a>.
-</div>
-
+</div> -->
+<script src="main.js"></script>
 </body>
 </html>
